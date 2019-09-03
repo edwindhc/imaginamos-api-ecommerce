@@ -3,11 +3,11 @@ services:
   imaginamos:
     build: .
     environment:
-      - MONGO_URI=mongodb://mongodb:27017/personal
+      - MONGO_URI=mongodb://mongodb:27017/imaginamos
     volumes:
       - .:/app
     ports:
-      - "3000:3000"
+      - "8080:8080"
     depends_on:
       - mongodb
 
