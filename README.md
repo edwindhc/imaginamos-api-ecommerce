@@ -1,5 +1,6 @@
 # imaginamos-api-ecommerce
 imaginamos-api-ecommerce
+<<<<<<< HEAD
 
 ## Getting Started
 
@@ -84,3 +85,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * Hat tip to anyone whose code was used
 * Inspiration
 * etc
+=======
+>>>>>>> 46e599e9b1acb2a4e9c58d45782272f144817286
