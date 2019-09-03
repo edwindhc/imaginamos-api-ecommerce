@@ -1,6 +1,5 @@
 # imaginamos-api-ecommerce
 imaginamos-api-ecommerce
-<<<<<<< HEAD
 
 ## Getting Started
 
@@ -11,79 +10,61 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software and how to install them
 
 ```
-Give examples
+ - [Node v10.16.3+](https://nodejs.org/en/download/current/)
+ - [Yarn](https://yarnpkg.com/en/docs/install)
 ```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+Clone the repo and make it yours:
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
+```bash
+git clone --depth 1 https://github.com/edwindhc/imaginamos-api-ecommerce.git
+cd imaginamos-api-ecommerce
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+Install dependencies:
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
+```bash
+yarn
 ```
 
-### And coding style tests
+Set environment variables:
 
-Explain what these tests test and why
-
-```
-Give an example
+```bash
+cp .env.example .env
 ```
 
-## Deployment
+## Running Locally
 
-Add additional notes about how to deploy this on a live system
+```bash
+yarn start
+```
 
-## Built With
+## Lint
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+```bash
+# lint code with ESLint
+yarn lint
+```
 
-## Contributing
+## Running the data faker
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+```bash
+# run user and product with data faker
+yarn faker
+```
+### Credentials test
 
-## Versioning
+Credential generate by data faker: username: Edwin@gmail.com password: 123456
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+## Documentation
 
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+```bash
+# generate and open api documentation
+yarn docs
+```
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
-=======
->>>>>>> 46e599e9b1acb2a4e9c58d45782272f144817286
