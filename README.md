@@ -41,6 +41,15 @@ cp .env.example .env
 yarn start
 ```
 
+## Docker
+
+```bash
+# run container locally
+yarn docker:dev
+or
+docker-compose -f docker-compose.yml -f docker-compose.dev.yml up
+```
+
 ## Lint
 
 ```bash
