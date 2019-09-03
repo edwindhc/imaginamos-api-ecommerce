@@ -10,8 +10,8 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software and how to install them
 
 ```
-[Node v10.16.3+](https://nodejs.org/en/download/current/ "Nodejs.org")
-[Yarn](https://yarnpkg.com/en/docs/install "Yarnpkg.com")
+[Node v10.16.3+](https://nodejs.org "Nodejs.org")
+[Yarn](https://yarnpkg.com "Yarnpkg.com")
 ```
 
 ### Installing
